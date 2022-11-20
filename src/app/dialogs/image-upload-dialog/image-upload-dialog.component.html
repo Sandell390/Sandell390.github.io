@@ -1,0 +1,38 @@
+<h1>Hej med dig</h1>
+
+<input type="file" (change)="onFileChange($event)" />
+
+<img [src]="imageURL" width="200px" height="200px" />
+<div style="display: block;">
+
+    <mat-form-field class="example-form-field">
+        <mat-label>Name: </mat-label>
+        <input matInput type="text" [(ngModel)]="name">
+    </mat-form-field>
+
+
+    <mat-form-field class="example-form-field">
+        <mat-label>Width: </mat-label>
+        <input matInput type="text" [(ngModel)]="width">
+
+    </mat-form-field>
+
+    <mat-form-field class="example-form-field">
+        <mat-label>Height: </mat-label>
+        <input matInput type="text" [(ngModel)]="height">
+
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>File Types:</mat-label>
+        <select matNativeControl required [(ngModel)]="select">
+          <option value="jpeg">JPEG</option>
+          <option value="png">PNG</option>
+          <option value="svg">SVG</option>
+          <option value="tiff">TIFF</option>
+          <option value="gif">GIF</option>
+        </select>
+    </mat-form-field>
+</div>
+
+<button mat-button [mat-dialog-close]="{name: name, width: width, height: height, select: select, imageURL: imageURL}">Save</button>
