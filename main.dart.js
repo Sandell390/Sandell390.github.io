@@ -34253,7 +34253,7 @@ A.HK.prototype={
 J(a){var s,r,q,p,o,n,m=this,l=null,k="Video instruction",j="Budget Osu!",i="Social Credit mission"
 m.a.toString
 s=A.h2(A.dO("Alex's gave",l,l,l),l,l)
-if(!m.d){r=A.dO("OBS: Hjemmesiden er blevet lavet til at v\xe6re p\xe5 pc s\xe5 du kan ikke g\xf8re du p\xe5 din mobil :/",A.cY(l,l,B.i,l,l,l,l,l,l,l,l,30,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l)
+if(!m.d){r=A.dO("OBS: Hjemmesiden er blevet lavet til at v\xe6re p\xe5 pc s\xe5 du kan ikke g\xf8re det p\xe5 din mobil :/",A.cY(l,l,B.i,l,l,l,l,l,l,l,l,30,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l)
 q=A.dF(5)
 q=A.zb(A.a([r,A.cQ(l,A.lH(A.dO("Okay",A.cY(l,l,B.j,l,l,l,l,l,l,l,l,20,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l),new A.a3u(m),l),l,l,new A.cO(B.c8,l,l,q,l,l,B.Q),l,l,l,l)],t.p),B.a5,B.aq,B.ad,B.au)
 r=q}else{r=A.dF(10)
